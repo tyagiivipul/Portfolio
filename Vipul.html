@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <title>Vipul</title>
+    <style>    
+    .welcome{
+        position: absolute;
+        top: 221px;
+        left: 16px;
+        justify-content: center;
+        text-align: center;
+        width: 62%;
+        font-size: 27px;
+    }
+    .welcome p{
+        font-size: 20px;
+        text-align: right;
+    }
+    .skill{
+        position: absolute;
+        top: 77px;
+         right: 18px;
+          width: 35%;
+          height: auto;
+         justify-content: space-evenly;
+         text-align: center;
+         font-size: 52px;
+         display: flex;
+         flex-direction: column;
+        }
+    
+    .CPP{
+        background-color: var(--main2);
+        border-radius: 20px;
+        width: 90%;
+        height: 33%;
+       margin-left: 28px;
+       margin-right: 28px;
+       font-size: 45px;
+       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.952); 
+       color: black;
+       margin-bottom: 35px;
+    }
+    
+    .CPP>div{
+     border: 5px solid var(--main3);
+     border-radius: 20px;
+     width: 75%;
+     background-color:  var(--main3);
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.952); 
+     color: #fff;
+    }
+    .C{
+        background-color: var(--main4);
+        border-radius: 20px;
+        width: 90%;
+        height: 33%;
+       margin-left: 28px;
+       margin-right: 28px;
+       font-size: 45px;
+       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.952); 
+       color: black;
+       margin-bottom: 35px;
+    }
+    
+    .C>div{
+     border: 5px solid  var(--main3);
+     border-radius: 20px;
+     width: 80%;
+     background-color: var(--main1);
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.952); 
+     color: #fff;
+    
+    }
+    
+    .html{
+        background-color: var(--main2);
+        border-radius: 20px;
+        width: 90%;
+        height: 33%;
+       margin-left: 28px;
+       margin-right: 28px;
+       font-size: 45px;
+       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.952); 
+       color: black;
+       margin-bottom: 35px;
+    }
+    
+    .html>div{
+     border: 5px solid  var(--main3);
+     border-radius: 20px;
+     width: 50%;
+     background-color:  var(--main3);
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.952); 
+     color: #fff;
+    }
+    .java{
+        background-color: var(--main4);
+        border-radius: 20px;
+        width: 90%;
+        height: 33%;
+       margin-left: 28px;
+       margin-right: 28px;
+       font-size: 45px;
+       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.952); 
+       color: black;
+    }
+    
+    .java>div{
+     border: 5px solid  var(--main3);
+     border-radius: 20px;
+     width: 30%;
+     background-color:  var(--main1);
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.952); 
+     color: #fff;
+    }
+    
+    .about{ 
+      position: absolute;
+      top: 624px;
+      left: 30px;
+      width: 62%;
+      text-align: center;
+      font-size: 60px;
+    }
+    .about p{
+        font-size: 25px;
+    }
+    .contact{
+        display: flex;
+        position: absolute;
+        top: 1073px;
+        left: 30px;
+        width: 90%;
+        height: auto;
+        font-size: 34px;
+        
+    }
+    
+    .contact p img{
+        position: relative;
+        top: 1px;
+        left: -10px;
+        width: 20px;
+    }
+    
+    .contact p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    }
+    
+    .contact p {
+        font-size: 20px;
+    }
+    
+    .CPP:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    .C:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    .html:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    }
+
+    :root{
+    --main1: #FC6600;
+    --main2: #F9A602;
+    --main3:#ff3c00;
+    --main4: #fff;
+}
+body{
+    color: var(--main4);
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 180, 65);
+}
+.header{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.952);    
+    display: flex;
+    height: 66px;
+    background-color:var(--main1);
+}
+.header::before{
+    content: "";
+    background: url('xyz.jpeg') no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 136px;
+    font-size: 32px;
+
+}
+.left:hover{
+    cursor: pointer;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    top: -4px;
+    right: 136px;
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display: inline-block;
+  font-size: 21px;
+}
+.navbar li a{
+    color: var(--main4);
+    text-decoration: none;
+  padding: 7px 39px;
+}
+.navbar li a:hover{
+    background-color: var(--main3);
+    text-decoration: underline;
+}
+
+
+</style>
+</head>
+
+<body>
+    <header class="header">
+        
+        <div class="left">
+            Vipul Tyagi
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#About">About Me</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="welcome">
+       Hello everyone.
+       This is my first Project. In this project I've made a Portfolio page having navigation bar. This page is made by using HTML and CSS. HTML is used to display the content while CSS is used to give design attributes to the page.
+        <p>Vipul Tyagi</p>
+    </div>
+
+
+
+
+    <div class="skill" id="Skills">
+        Skills
+        <div class="CPP">
+            JAVA
+            <div>
+                70%
+            </div>
+        </div>
+
+        <div class="C">
+            C
+            <div>
+                80%
+            </div>
+        </div>
+
+        <div class="html">
+            HTML and CSS
+            <div>
+                50%
+            </div>
+        </div>
+
+        <div class="java">
+            C++
+            <div>
+                30%
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="About">
+        About me
+        <p>My name is Vipul tyagi. I am currently persuaing B.tech from Ajay kumar garg engineering college. My branch is Computer science. I'm from Moradabad. My technical skills include HTML, CSS, C, JAVA.
+        </p>
+    </div>
+
+
+
+    <div class="contact" id="Contact">
+        Contact Me 
+        <p><br><a href="https://instagram.com/tyagiivipul?utm_medium=copy_link" target="blank">Instagram</a><br>8445687438<br>
+       tyagivipul9921@gmail.com </p>
+
+    </div>
+</body>
+
+</html>
